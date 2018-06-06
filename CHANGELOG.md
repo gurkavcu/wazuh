@@ -29,6 +29,7 @@ All notable changes to this project will be documented in this file.
     - Up to 16 parallel threads to decrypt messages from agents.
     - Limit the frequency of agent keys reloading.
     - Message input buffer in Analysisd to prevent control messages starvation in Remoted.
+- Added scheduling options to CIS-CAT integration. ([#586](https://github.com/wazuh/wazuh/pull/586))
 
 ### Changed
 
@@ -41,6 +42,8 @@ All notable changes to this project will be documented in this file.
 - Increases the maximum size of XML parser to 20KB.
 - Extract CVE instead of RHSA codes into vulnerability-detector. ([#549](https://github.com/wazuh/wazuh/pull/549))
 - Merge external libraries into a unique shared library. ([#620](https://github.com/wazuh/wazuh/pull/620))
+- Store CIS-CAT results into Wazuh DB. ([#568](https://github.com/wazuh/wazuh/pull/568))
+- Add profile information to CIS-CAT reports. ([#658](https://github.com/wazuh/wazuh/pull/658))
 
 ### Fixed
 
