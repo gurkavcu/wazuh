@@ -28,6 +28,7 @@ All notable changes to this project will be documented in this file.
     - Limit the frequency of agent keys reloading.
     - Message input buffer in Analysisd to prevent control messages starvation in Remoted.
 - Module to download shared files for agent groups dinamically. ([#519](https://github.com/wazuh/wazuh/pull/519))
+- Get Windows hardware inventory natively. ([#831](https://github.com/wazuh/wazuh/pull/831))
 
 ### Changed
 
