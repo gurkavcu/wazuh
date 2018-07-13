@@ -38,6 +38,7 @@ All notable changes to this project will be documented in this file.
 - Increases the maximum size of XML parser to 20KB.
 - Extract CVE instead of RHSA codes into vulnerability-detector. ([#549](https://github.com/wazuh/wazuh/pull/549))
 - Merge external libraries into a unique shared library. ([#620](https://github.com/wazuh/wazuh/pull/620))
+- Cluster log rotation: set correct permissions and store rotations in /logs/ossec. ([#667](https://github.com/wazuh/wazuh/pull/667))
 
 ### Fixed
 
@@ -47,6 +48,7 @@ All notable changes to this project will be documented in this file.
 - Windows delete pending active-responses before reset agent. ([#563](https://github.com/wazuh/wazuh/pull/563))
 - Fix bug in Rootcheck for Windows that searches for keys in 32-bit mode only. ([#566](https://github.com/wazuh/wazuh/pull/566))
 - Alert when unmerge files fails on agent. ([#731](https://github.com/wazuh/wazuh/pull/731))
+- Cluster: reject connection if the client node has a different cluster name. ([#892](https://github.com/wazuh/wazuh/pull/892))
 
 ### Removed
 
